@@ -1488,9 +1488,7 @@ progress {
 }
 
 .itemProgressBarForeground {
-  background: rgb(var(--accent));
-  filter: none !important;
-}
+  background: linear-gradient( 270deg, rgba(var(--accent), 1) 0%, rgba(var(--accent), 0.9) 10%, rgba(var(--accent), 0.8) 20%, rgba(var(--accent), 0.7) 30%, rgba(var(--accent), 0.6) 40%, rgba(var(--accent), 0.5) 50%, rgba(var(--accent), 0.4) 60%, rgba(var(--accent), 0.3) 70%, rgba(var(--accent), 0.2) 80%, rgba(var(--accent), 0.1) 90%, rgba(var(--accent), 0) 100% ); filter: drop-shadow(6px 0px 6px rgba(var(--tint2), 0.9)) !important;
 
 .layout-desktop .detailImageContainer .card.portraitCard:hover,
 .layout-tv .detailImageContainer .card.portraitCard:focus,
